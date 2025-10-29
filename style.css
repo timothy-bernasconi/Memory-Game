@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    margin: 0 auto;
+    background-color:beige
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(5, 120px);
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.carte {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.carte.flipped {
+    transform: rotateY(180deg);
+}
