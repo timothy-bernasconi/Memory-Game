@@ -1,0 +1,22 @@
+export const images = [
+  "./assets/cheval.jpg",
+  "./assets/cheval.jpg",
+  "./assets/chien.jpg",
+  "./assets/chien.jpg",
+  "./assets/libellule.png",
+  "./assets/libellule.png",
+  "./assets/abeille.jpg",
+  "./assets/abeille.jpg",
+  "./assets/rat.jpg",
+  "./assets/rat.jpg",
+  "./assets/cerf.png",
+  "./assets/cerf.png",
+  "./assets/crocodile.png",
+  "./assets/crocodile.png",
+  "./assets/oiseau.png",
+  "./assets/oiseau.png",
+  "./assets/singe.png",
+  "./assets/singe.png",
+  "./assets/taupe.png",
+  "./assets/taupe.png"
+];

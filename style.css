@@ -1,7 +1,16 @@
 body {
-    height: 100vh;
-    margin: 0 auto;
-    background-color:beige
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0b6623;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  margin-bottom: 20px;
 }
 
 .grille {
@@ -9,17 +18,52 @@ body {
   grid-template-columns: repeat(5, 120px);
   gap: 10px;
   justify-content: center;
-  padding: 20px;
 }
 
 .carte {
   width: 100px;
   height: 100px;
+  perspective: 1000px;
   cursor: pointer;
-  border-radius: 10px;
-  transition: transform 0.3s;
+  position: relative;
 }
 
-.carte.flipped {
-    transform: rotateY(180deg);
+.carte .front,
+.carte .back {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+.carte .front img,
+.carte .back img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.carte .back {
+  transform: rotateY(180deg);
+}
+
+.carte.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.carte.flipped .back {
+  transform: rotateY(0deg);
+}
+
+@media screen and (max-width: 800px) {
+  .grille {
+    grid-template-columns: repeat(4, 100px);
+    gap: 8px;
+  }
+  .carte {
+    width: 80px;
+    height: 80px;
+  }
 }
