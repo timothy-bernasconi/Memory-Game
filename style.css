@@ -78,10 +78,11 @@ h3 {
 }
 
 .container img {
-  height: 100px;
+  height: 150px;
   border: 1px solid white;
   border-radius: 5px;
   margin-bottom: -1rem;
+  margin-left: 1rem;
 }
 
 .container p {
