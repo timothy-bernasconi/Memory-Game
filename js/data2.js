@@ -1,0 +1,23 @@
+export const images = [
+"./assets/fleur1.png",
+"./assets/fleur1.png",
+"./assets/fleur2.png",
+"./assets/fleur2.png",
+"./assets/fleur3.png",
+"./assets/fleur3.png",
+"./assets/fleur4.png",
+"./assets/fleur4.png",
+"./assets/fleur5.png",
+"./assets/fleur5.png",
+"./assets/fleur6.png",
+"./assets/fleur6.png",
+"./assets/fleur7.png",
+"./assets/fleur7.png",
+"./assets/fleur8.png",
+"./assets/fleur8.png",
+"./assets/fleur9.png",
+"./assets/fleur9.png",
+"./assets/fleur10.png",
+"./assets/fleur10.png",
+
+];
