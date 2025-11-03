@@ -2,10 +2,10 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #b68383;
+  background-color: rgb(70, 20, 108);
   margin: 0;
-  padding: 20px;
+  height: 100vh;
+
 }
 
 a {
@@ -13,14 +13,105 @@ a {
  text-decoration: none;
 }
 
+
 h1 {
-  color: white;
-  margin-bottom: 20px;
+  color: rgb(0, 166, 255);
+  text-shadow: 4px 2px 1px rgb(161, 52, 163);
+  display: flex;
+  justify-content: center;
+   font-family: "Chewy", system-ui;
+   font-size: 4rem;
+
+  
 }
 
 h3 {
-  color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  
 }
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  align-items: center; 
+  height: 80px;
+  width: 100%;
+  background-color: #0000000d;
+  color: white;
+  
+}
+
+nav img {
+  display: block; 
+  height: 120px; 
+  position: relative;
+  top: 0;
+
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+.container {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border : 1px solid black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  height: 410px;
+  width: 300px;
+  background-color: w;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background-color: rgb(70, 20, 108);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  box-shadow: 1px 1px 3px;
+  height: 30px;
+  width: 80px;
+  position: relative;
+  left: 7rem;
+  cursor: pointer;
+}
+
+.container img {
+  height: 295px;
+  width: 295px;
+  border-radius: 5px;
+}
+
+.item {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
 .grille {
   display: grid;
   grid-template-columns: repeat(5, 120px);
@@ -65,29 +156,6 @@ h3 {
   transform: rotateY(0deg);
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  
-}
-
-.animal {
-  display: flex;
-  flex-direction: column;
-}
-
-.container img {
-  height: 150px;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-bottom: -1rem;
-  margin-left: 1rem;
-}
-
-.container p {
-  text-align: center;
-}
 
 
 @media screen and (max-width: 800px) {
