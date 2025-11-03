@@ -5,44 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memory Game</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <nav>
+      <ul>
+        <img src="./assets/logo.webp" alt="logo site">
+        <li>Nos jeux Memory</li>
+        <li>Règles du jeu</li>
+       
 
-  <h1>Memory Game</h1>
 
-  <h2>Choisit ton thème</h2>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Jeux du Memory </h1>
   
- <div class="container">
-  <a href="./jeu1.html" class="theme">
-    <img src="./assets/singe.png" alt="Animaux">
-    <p>Animaux</p>
-  </a>
 
-  <a href="./jeu2.html" class="theme">
-    <img src="./assets/ferrari.png" alt="Voitures">
-    <p>Voitures</p>
-  </a>
+<section>
+  <div class="container">
+    <div class="item">
+      <img src="./assets/abeille.jpg" alt="">
+    </div>
+    <h3>Memory des Animaux</h3>
+    <a href="./jeu1.html" class="theme"><button>Jouer</button></a>
+  </div>
 
-  <a href="./jeu3.html" class="theme">
-    <img src="./assets/fleur1.png" alt="Fleurs">
-    <p>Fleurs</p>
-  </a>
+  <div class="container">
+    <div class="item">
+      <img src="./assets/rollRoyce.png" alt="">
+    </div>
+    <h3>Memory des Voitures</h3>
+    <a href="./jeu2.html" class="theme"><button>Jouer</button></a>
+  </div>
 
-  <a href="./jeu4.html" class="theme">
-    <img src="./assets/aliment1.png" alt="Aliment">
-    <p>Super Héros</p>
-  </a>
-</div>
+  <div class="container">
+    <div class="item">
+      <img src="./assets/aliment3.png" alt="">
+    </div>
+    <h3>Memory des Aliments</h3>
+    <a href="./jeu3.html" class="theme"><button>Jouer</button></a>
+  </div>
 
-
-
-
-
-
-
-
- 
+  <div class="container">
+    <div class="item">
+      <img src="./assets/fleur2.png" alt="">
+    </div>
+    <h3>Memory des Fleurs</h3>
+    <a href="./jeu4.html" class="theme"><button>Jouer</button></a>
+  </div>
+</section>
+  
 
   <script type="module" src="/js/main.js"></script>
 </body>
