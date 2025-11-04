@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Memory Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,22 +13,33 @@
 
 <body>
   <header>
-    <nav>
-      <ul>
+      <nav class="menu">
+    <ul class="menu-principal">
         <img src="./assets/logo.webp" alt="logo site">
         <li>Nos jeux Memory</li>
-        <li>Règles du jeu</li>
-       
+        <li>Comment jouer</li>
+        <li>Modes de jeu</li>
+    </ul>
 
+     
+    <ul class="menu-social">
+        <li>Inscription</li>
+        <li>Se connecter</li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <li><i class="fa-brands fa-youtube"></i></li>
+    </ul>
+</nav>
 
-      </ul>
     </nav>
   </header>
+  
+<section><h1>Jeux Memory </h1></section>
 
-  <h1>Jeux Memory </h1>
   
 
 <section>
+ 
   <div class="container">
     <div class="item">
       <a href="./jeu1.html"><img src="./assets/animaux/tigre.png" alt="tigre"></a>
@@ -61,12 +73,57 @@
   </div>
 </section>
 
+<section class="rules">
 
-  
-<h3>bla bla
-</h3>
+  <h2>Comment jouer ? </h2>
 
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias dolorem suscipit ratione aut eius nulla dolorum ex, officia fugiat deserunt. Explicabo temporibus architecto repellendus molestias distinctio. Eligendi, consequatur. Error, quibusdam?</p>
+  <div>
+    <p>
+      Le but du <span>Memory</span> est de trouver toutes les paires <span>d’images identiques</span> parmi un ensemble de <span>cartes disposées</span> face
+      cachée. Le joueur doit faire appel à sa <span>mémoire visuelle</span> pour se souvenir de la position des <span>cartes déjà révélées.</span>
+    </p>
+    
+    <p>
+      <span>1-</span> Clique sur une carte pour la <span>retourner</span>. <br><br>
+      <span>2- </span>Clique sur une deuxième carte pour tenter de <span>trouver sa paire. </span><br><br>
+      <span>3-</span> Si les deux cartes <span>sont identiques,</span> elles restent visibles : <span>tu gagnes une paire !</span>🎉<br> <br>
+      <span>4-</span> Si elles <span>sont différentes,</span> elles se <span>referment automatiquement</span> après un court instant. <br> <br>
+      <span>5-</span> Continue jusqu’à avoir <span>trouvé toutes les paires !</span></p>
+
+  </div>
+</section>
+
+
+<h2> 3 modes de jeu </h2>
+
+<section class="modes">
+
+
+  <div class="container">
+    <div class="item">
+      <img src="./assets/ampoule.png" alt="ampoule">
+      <h3>Mode Classique</h3>
+    </div>
+  </div>
+
+   <div class="container">
+    <div class="item">
+      <img src="./assets/chronometre.png" alt="chrono">
+      <h3>Mode Rapide</h3>
+    </div>
+  </div>
+
+   <div class="container">
+    <div class="item">
+      <img src="./assets/trophée.png" alt="trophée">
+      <h3>Mode Compétitif</h3>
+    </div>
+  </div>
+
+</section>
+
+<br>
+<br>
   
 
   <script type="module" src="/js/main.js"></script>
