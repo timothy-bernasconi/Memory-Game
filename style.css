@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  background-color: rgb(70, 20, 108);
+  background-color: rgb(29, 4, 53);
   margin: 0;
   height: 100vh;
 
@@ -26,10 +26,11 @@ h1 {
 }
 
 h3 {
-  color: black;
+  color: white;
+  font-family:'Trebuchet MS', Arial, sans-serif;
+  font-weight: 100;
   display: flex;
-  justify-content: center;
-  
+  justify-content: center;  
 }
 
 nav {
@@ -38,7 +39,7 @@ nav {
   align-items: center; 
   height: 80px;
   width: 100%;
-  background-color: #0000000d;
+  background-color:rgba(90, 0, 150, 0.24);
   color: white;
   
 }
@@ -65,18 +66,19 @@ section {
   justify-content: space-evenly;
 }
 
-
-
 .container {
   display: flex;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.034);
   flex-direction: column;
-  border : 1px solid black;
+  border : 1px solid rgb(255, 255, 255);
   border-radius: 5px;
-  box-shadow: 1px 1px 5px black;
-  height: 410px;
-  width: 300px;
-  background-color: w;
+  box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.164);
+  height: 280px;
+  width: 280px;
+  }
+
+.container:hover {
+  background-color:  rgb(70, 30, 120);
 }
 
 button {
@@ -85,7 +87,7 @@ button {
   align-items: center;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
-  background-color: rgb(70, 20, 108);
+  background-color: rgb(108, 20, 102);
   color: white;
   text-transform: uppercase;
   font-weight: 900;
@@ -98,17 +100,40 @@ button {
 }
 
 .container img {
-  height: 295px;
-  width: 295px;
-  border-radius: 5px;
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  margin-top: 2rem;
+  border: 3px solid white;
+  cursor: pointer;
 }
 
 .item {
   display: flex;
+  flex-direction: column;
+  
   height: 300px;
   justify-content: center;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,5 +192,14 @@ button {
     width: 80px;
     height: 80px;
   }
+
+  section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+  }
+
+  
 }
 
