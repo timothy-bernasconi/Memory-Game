@@ -24,9 +24,6 @@ html {
 }
 
 
-
-
-
 a {
  color: white;
  text-decoration: none;
@@ -78,7 +75,7 @@ nav {
   width: 100%;
   background-color:rgba(90, 0, 150, 0.24);
   color: white;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
     
 }
 
@@ -197,8 +194,11 @@ section.modes > .container {
   margin-top: 4rem;
 }
 
-
-
+footer {
+  background-color: white;
+  height: 80px;
+  text-align: center;
+}
 
 #timer {
   font-size: 24px;
